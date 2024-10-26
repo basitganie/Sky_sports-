@@ -14,9 +14,8 @@
       background: linear-gradient(to right, #2b5876, #4e4376);
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       height: 100vh;
-      overflow: hidden;
     }
 
     .container {
@@ -27,11 +26,6 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
-      transition: all 0.3s ease;
-    }
-
-    .container:hover {
-      transform: scale(1.05);
     }
 
     h1 {
@@ -117,8 +111,9 @@
     <h2>CricSports Live</h2>
     <div class="dynamic-text">Stay tuned for updates</div>
 
-    <iframe src="//stream.crichd.sc/update/skys2.php" width="100%" height="400px" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen allow="encrypted-media"></iframe> <br><br>
-    <iframe src="//stream.crichd.sc/update/willowcricket.php" width="100%" height="500px" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen  allow="encrypted-media"></iframe><br>
+    <iframe src="//stream.crichd.sc/update/skys2.php" width="100%" height="250px" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen allow="encrypted-media"></iframe>
+    <br><br>
+    <iframe src="//stream.crichd.sc/update/willowcricket.php" width="100%" height="250px" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen allow="encrypted-media"></iframe>
     
     <button onclick="toggleMode()">Toggle Dark/Light Mode</button>
 
